@@ -16,8 +16,8 @@ var connector = new builder.ChatConnector({
 //    appId: process.env.MICROSOFT_APP_ID,
 //    appPassword: process.env.MICROSOFT_APP_PASSWORD
 
-	appId: null,
-    appPassword: null
+	appId: '34dd6a20-28bc-4813-8bff-73118d350176',
+    appPassword: 'ajLVekOosCvBHi8yrbr8By6'
 });
 var bot = new builder.UniversalBot(connector);
 server.post('/api/messages', connector.listen());
